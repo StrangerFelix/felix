@@ -1,0 +1,340 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Raleway', sans-serif;
+}
+header{
+    background: #eeeeee;
+    width: 100%;
+    height: 70px;
+    border-bottom: 2px #D3D3D3 solid;
+    box-shadow: 0 0 7px 0;
+}
+#logobox{
+    float: right;
+    width: 40%;  
+}
+#logo{
+    height: 50px;
+    display: flex;
+    padding: 10px;
+    padding-left: 15px;
+    cursor: pointer;
+}
+#web-title{
+    float: left;
+    line-height: 70px;
+    margin-left: 15px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+#nav-bar{
+    position: relative;
+    bottom: 50px;
+    right: 10px;
+    width: 60%;
+    float: right;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+.li-nav-all{
+    font-size: 25px;
+    margin: 0 20px;
+}
+.a-li-home{
+    color: #42a5f5;
+    border-bottom: 1.5px solid #90caf9;
+}
+.a-li-all{
+    text-decoration: none;
+    color: black;
+}
+.a-li-all:hover{
+    text-decoration: none;
+    color: #42a5f5;
+    border-bottom: 1.5px solid #90caf9;
+    transition: 0.1s;
+}
+#heading-div{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 500px;
+    border-bottom: 2px #D3D3D3 solid;
+    
+}
+#heading{
+    font-family: 'Permanent Marker', cursive;
+    letter-spacing: 1.5px;
+    font-size: 50px;
+    margin-top: 10px;
+    text-align: center;
+}
+.heading-p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+#html-pic{
+    margin-top: 50px;
+    height: 150px;
+}
+#html-span{
+    display: flex;
+    justify-content: center;
+}
+#pics-span{
+    display: flex;
+    justify-content: center;
+}
+.img-all{
+    width: 60px;
+    margin: 25px 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px black solid;
+}
+.img-all:hover{
+    width: 60px;
+    margin: 25px 20px;
+    padding-bottom: 5px;
+    border-bottom: 2px #90caf9 solid;
+    transition: 0.3s;
+}
+@media only screen and (max-width: 1500px){
+    #heading-div{
+        height: 550px;
+    }
+}
+@media only screen and (max-width: 1000px){
+    #heading-div{
+            height: 550px;
+        }
+            .img-all{
+        width: 60px;
+        margin: 5px 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px black solid;
+    }
+    .img-all:hover{
+        width: 60px;
+        margin: 5px 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px #90caf9 solid;
+        transition: 0.3s;
+    }
+}
+@media only screen and (max-width: 600px) {
+        #nav-bar{
+            position: relative;
+            left: 30px;
+        }
+        #heading-div{
+            margin: 0 20px 0 0;
+        }
+        .li-nav-all{
+        font-size: 20px;
+            margin-top: 5px;
+    }
+        .img-all{
+        width: 60px;
+        margin: 10px 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px black solid;
+    }
+    .img-all:hover{
+        width: 60px;
+        margin: 10px 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px #90caf9 solid;
+        transition: 0.3s;
+    }
+@media only screen and (max-width: 450px){
+    #nav-bar{
+        display: block;
+        position: absolute;
+        top: 80px;
+    }
+    ul{
+        margin-left: 35px;
+        display: flex;
+        list-style: none;
+    }
+    .li-nav-all{
+        font-size: 25px;
+        margin: 0 20px;
+    }
+    .a-li-home{
+        color: #42a5f5;
+        border-bottom: 1.5px solid #90caf9;
+    }
+    .a-li-all{
+        text-decoration: none;
+        color: black;
+    }
+    .a-li-all:hover{
+        text-decoration: none;
+        color: #42a5f5;
+        border-bottom: 1.5px solid #90caf9;
+        transition: 0.1s;
+    }
+    #logobox{
+        display: flex;
+        width: 100%; 
+        }
+    #logo{
+        height: 50px;
+        padding: 10px;
+        padding-left: 15px;
+        cursor: pointer;
+    }
+    #web-title{
+        line-height: 70px;
+        margin-left: 120px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: bold;
+        letter-spacing: 2px;
+        cursor: pointer;
+    }
+    header{
+        background: #eeeeee;
+        width: 100%;
+        height: 130px;
+        border-bottom: 2px #D3D3D3 solid;
+        box-shadow: 0 0 7px 0;
+    }
+        .img-all{
+        width: 50px;
+        margin: 5px 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px black solid;
+    }
+    .img-all:hover{
+        width: 50px;
+        margin: 5px 20px;
+        padding-bottom: 5px;
+        border-bottom: 2px #90caf9 solid;
+        transition: 0.3s;
+    }
+}
+@media only screen and (max-width: 433px) {
+    header{
+        width: 1000px;
+    }
+    #heading-div{
+        height: 600px;
+    }
+    }
+@media only screen and (max-width: 400px) {
+    header{
+        width: 1000px;
+    }
+    #heading-div{
+        height: 600px;
+    }
+    #heading{
+        font-size: 40px;
+    }
+    .heading-p{
+        font-size: 15px;
+        margin: 10px 20px;
+    }
+    #html-pic{
+        height: 130px;
+}
+    .img-all{
+        margin-top: 15px;
+    }
+    }
+@media only screen and (max-width: 375px) {
+    #logo-box{
+        position: absolute;
+        left: -15px;
+    }
+    #nav-bar{
+        position: absolute;
+        left: -10px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #logo-box{
+        position: absolute;
+        left: -30px;
+    }
+    #nav-bar{
+        position: absolute;
+        left: 2px;
+    }
+    #html-pic{
+        height: 110px;
+}
+}
+@media only screen and (max-width: 335px){
+    #heading{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    }
+@media only screen and (max-width: 335px){
+    #heading{
+        font-size: 35px;
+        margin-bottom: 5px;
+    }
+    #heading-div{
+        height: 650px;
+    }
+    }
+@media only screen and (max-width: 315px){
+    #nav-bar{
+        position: absolute;
+        left: -30px;
+    }
+    #logo-box{
+        position: absolute;
+        left: -55px;
+    }
+    #heading-div{
+        height: 600px;
+    }
+    #html-pic{
+        height: 90px;
+        margin-top: -5px;
+}
+    }
+@media only screen and (max-width: 290px){
+    #heading{
+        font-size: 29px;
+    }
+    #heading-div{
+        height: 550px;
+    }
+    #nav-bar{
+        position: absolute;
+        left: -40px;
+    }
+    }
+@media only screen and (max-width: 280px){
+    #logo{
+        height: 40px;
+        margin-top: 4px;
+        margin-right: 2px;
+    }
+    #web-title{
+        font-size: 27px;
+      
+    }
+    .a-li-all{
+    font-size: 20px;
+    margin-left: 2px;
+}
+    #heading-div{
+        height: 600px;
+    }
+}
